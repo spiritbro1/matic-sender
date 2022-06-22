@@ -5,7 +5,9 @@ Send matic easily using metamask and unstoppable domain
 [https://github.com/spiritbro1/matic-sender](https://github.com/spiritbro1/matic-sender)
 
 # Recorded video demo of the integration (max. 3 mins)
-https://user-images.githubusercontent.com/62529025/167747206-f310da4a-7861-4b48-af77-e12e21de912d.mp4
+
+https://user-images.githubusercontent.com/62529025/175179590-705dc644-1185-42ac-81e2-cc233927c934.mp4
+
 
 # Person of contact in case there are any questions
 ## Discord ID
