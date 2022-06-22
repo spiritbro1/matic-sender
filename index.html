@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matic Sender</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      type="text/css"
+    />
+ 
+  </head>
+  <style >
+    .kebawah {
+      margin-bottom: 1em;
+    }
+    .keatas {
+      margin-top: 1em;
+    }
+    .center {
+      height: 100vh;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+    </style>
+<script>window.global = window;</script>
+<script type="module">
+    import process from "process";
+    import { Buffer } from "buffer";
+    import EventEmitter from "events";
+    
+    window.Buffer = Buffer;
+    window.process = process;
+    window.EventEmitter = EventEmitter;
+</script>    
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
